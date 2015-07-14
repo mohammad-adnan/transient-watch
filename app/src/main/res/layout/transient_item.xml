@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:screenOrientation="portrait"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/transient_name"
+                    android:id="@+id/transient_name"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/transient_ra"
+                    android:id="@+id/transient_ra"
+                    android:textColor="#FFFFFF"
+                />
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/transient_dec"
+                    android:id="@+id/transient_dec"
+                    android:textColor="#FFFFFF"
+                />
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/transient_op"
+                    android:id="@+id/transient_op"
+                    android:textColor="#FFFFFF"
+                    />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingTop="12dp"
+            android:paddingRight="10dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:background="@drawable/follow_buttom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/follow"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:text="Follow"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textStyle="normal"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                />
+        </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
